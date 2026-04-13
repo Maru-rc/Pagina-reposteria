@@ -47,9 +47,7 @@ ul{
     border-radius: 70px;
 }
 
-#seccion-abajo{
-    width: 40%;
-}
+
 
 #Cafe{
     width: 100%;
@@ -114,13 +112,13 @@ footer ul{
 
 .algo:hover{
     background-color: #d1b19a;
-    border-radius: 20px;
     padding: 20px;
 }
 
 .algo{
     align-items: center;
     margin: 20px;
+    border-radius: 20px;
     transition: 0.5s;
 }
 
@@ -147,3 +145,13 @@ footer ul{
 #titulo-catalogo{
     text-align: center;
 }
+
+#seccion-abajo{
+    max-width: 930px;
+    margin: 15px auto;
+}
+
+#seccion-abajo div{
+    gap: 15px;
+}
+
