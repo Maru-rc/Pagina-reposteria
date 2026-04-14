@@ -58,10 +58,26 @@ ul{
 input, textarea{
     width: 50%;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.FOR {   
+    background-color:rgb(233, 193, 193); 
+    color: white;
+    padding: 30px;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.formulario_input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cuadro_coment {
+    width: 80%;
+    height: 150px;
 }
 
 footer{

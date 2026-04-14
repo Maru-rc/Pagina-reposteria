@@ -30,8 +30,8 @@
 
       <div class="Padre">
         <div>
-          <h2>Lorem ipsum dolor sit.</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas minus quibusdam ipsum itaque, doloribus, odit adipisci et enim, eaque necessitatibus animi hic aperiam beatae vel. Id consequatur qui cupiditate asperiores, iusto ratione rem ipsam blanditiis vel accusamus alias earum debitis facilis odit recusandae error fugiat vero modi cumque omnis aut?</p>
+          <h2>Endulza tu dia</h2>
+          <p>¿Buscas ese sabor que te hace sonreír? Bienvenido a tu rincón dulce favorito. Aquí, la pastelería honesta y el aroma a hogar se mezclan para acompañar tus mejores celebraciones (o ese antojo de media tarde que tanto te mereces).</p>
           <button>Pastel de chocolate</button>
         </div>
         <div><img class="Pastel" src="pudin stock.webp" alt="Pastel"></div>
@@ -39,17 +39,17 @@
 
       <div class="Padre">
         <div class="algo">
-            <h4>Lorem, ipsum dolor.</h4>
+            <h4>POSTRES PARA FESTIVIDADES.</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, sapiente.</p>
         </div>
 
         <div class="algo">
-            <h4>Lorem, ipsum dolor.</h4>
+            <h4>POSTRES INTEGRALES.</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, assumenda?</p>
         </div>
         
         <div class="algo">
-            <h4>Lorem, ipsum dolor.</h4>
+            <h4>POSTRES PERSONALIZADOS.</h4>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, eaque.</p>
         </div>
 
@@ -104,26 +104,63 @@
                 <img id="Cafe" src="cafe.webp" alt="Imagen de un cafe">
             </div>
             <div>
-             <h2>Lorem, ipsum dolor.</h2>
-             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt tempora magni consectetur itaque explicabo nisi sit consequuntur ipsum voluptates, quia mollitia ut ipsa blanditiis, suscipit cum rem ipsam maiores ab ratione velit vel voluptatum fugiat illo. Corrupti quae illo eius totam molestias nesciunt ex earum eum quibusdam possimus tenetur sint, nemo eligendi officiis reprehenderit delectus odit assumenda rem. Ab praesentium placeat error facere molestiae delectus recusandae, fuga dignissimos aperiam consequatur nostrum maxime explicabo minus nisi itaque repellat! Illo odit ullam alias cupiditate! At rerum dicta reprehenderit autem provident sed laborum nesciunt eveniet, quidem laboriosam voluptatibus voluptate velit explicabo. Odit, ipsa!</p>
+             <h2>Quienes somos?</h2>
+             <p>Somos un equipo unido por el amor a la repostería tradicional.Transformamos ingredientes locales en experiencias inolvidables, combinando la calidez de lo casero con una presentación impecable. Sin trucos ni conservantes, solo pastelería honesta hecha con el corazón para endulzar tus mejores momentos.Nuestra historia se escribe cada mañana entre el aroma del azúcar tostada y la frescura de la harina recién tamizada. Nos enorgullece decir que somos fieles defensores de lo local: seleccionamos cuidadosamente cada ingrediente de nuestra región, apoyando a productores cercanos para garantizar que lo que llega a tu mesa sea siempre fresco, natural y de la más alta calidad.</p>
              <button>Cafe</button>
             </div>
         </div>
     </section>
 
     
-    <section id="Contacto">
-        <div>
-            <form>
-                <label for="Nombre">Nombre:</label>
-                <input type="text" name="Nombre" required>
-                <br> <label for="email">Correo:</label>
-                <input type="email" required >
-                <br><label for="caja-texto">Mensaje:</label>
-                <textarea name="" rows="10" cols="10"></textarea>
+    <div class="FOR">
+        <section id="CONTACTAME" class="formulario">
+            <h2 class="contactame">CONTACTANOS</h2>
+
+            <form action="" class="formulario">
+                <br>
+                <label><b>NOMBRE</b><br>
+                    <input type="text" name="name" placeholder="Escribe tu nombre" required class="formulario_input">
+                </label>
+
+                <br><br>
+
+                <label><b>TELEFONO</b><br>
+                    <input type="tel" pattern="[0-9]+" name="Telefono1" placeholder="ej 3002666030" required minlength="10" class="formulario_input">
+                </label>
+
+                <br><br>
+
+                <label><b>CORREO</b><br>
+                    <input type="email" name="Correo" placeholder="ej correo@gmail.com" required class="formulario_input">
+                </label>
+
+                <br><br>
+
+                <h3><b>TE PODEMOS CONTACTAR POR</b></h3>
+
+                <label>
+                    <input type="radio" name="Contacto" required class="formulario_input"> Correo
+                </label>
+                <label>
+                    <input type="radio" name="Contacto" required class="formulario_input"> Telefono
+                </label>
+                <br><br>
+
+                <h3><b>INGRESE SUS DUDAS O QUE QUISIERA SABER</b></h3>
+                <br>
+                <label>
+                    <input type="text" name="comentario" placeholder="                    Ingresa cualquier duda" class="cuadro_coment">
+                </label>
+                <br><br>
+                <label><b>FECHA DE NACIMIENTO</b><br>
+                    <input type="date" name="fecha" required class="formulario_input">
+                </label>
+
+                <br><br>
+
+                <input type="submit" name="enviar" class="formulario_input">
             </form>
-        </div>
-    </section>
+    </div>
 
     <footer>
         <ul>
